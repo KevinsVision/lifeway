@@ -3,7 +3,7 @@ class User < ApplicationRecord
   validates :msg_id, uniqueness: true
 
 # create a method that counts the words within the text
-  def count
+  def word_count
     # create an emtpy array
     list = []
 
