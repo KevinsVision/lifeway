@@ -1,5 +1,5 @@
 class User < ApplicationRecord
 
-  validates :user_id, uniqueness: true
+  validates :msg_id, uniqueness: true
 
 end
