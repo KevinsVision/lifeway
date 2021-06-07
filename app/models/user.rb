@@ -15,4 +15,14 @@ class User < ApplicationRecord
     list
   end
 
+  #  ** Below I attempted to total the number of all words **
+  # def total_words
+  #   nums = User.all.word_count
+
+  #   nums.each do |num|
+  #     p num + num
+  #   end
+    
+  # end
+
 end
