@@ -1,24 +1,37 @@
-# README
+## Code Challenge for Software Engineer position
+This challenge was created using Ruby on Rails REST API - Postgres database.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+## Check if Rails is already installed in your system
+1. Use the following command to check the Ruby version.
+  `ruby -v`
 
-* Ruby version
+2. Use the following command to check the rails version.
+  `rails -v`
 
-* System dependencies
+## Run the following on your terminal if Ruby or Rails is not yet installed
 
-* Configuration
+# Ruby
+1. `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-* Database creation
+2. `\curl -L https://get.rvm.io | bash -s stable`
 
-* Database initialization
+3. `rvm use ruby --install --default`
+`ruby -v`
 
-* How to run the test suite
+# Rails
+4. `gem install rails --no-document`
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Download Postgres if not yet installed
+1. https://postgresapp.com/
 
-* ...
+
+## Initialization
+1. Clone and open the project in a code editor.
+2. Go into the codingChallenge folder.
+3. Run `bundle install`.
+4. Run `rails db:migrate`.
+5. Run `rails s`.
+6. Click the following URL: http://localhost:3000/users/new
