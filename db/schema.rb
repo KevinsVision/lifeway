@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2021_06_05_083600) do
   create_table "users", force: :cascade do |t|
     t.integer "msg_id"
     t.text "message"
-    t.integer "count"
+    t.integer "word_count"
   end
 
 end

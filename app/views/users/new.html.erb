@@ -1,0 +1,16 @@
+<% if flash.key? :alert %>
+  <p><%= flash[:alert] %></p>
+<% end %>
+
+<%= form_for @user do |f| %>
+  <%= f.label :ID %> <br />
+  <%= f.number_field :msg_id %> <br /> <br />
+
+  <%= f.label :message %> <br />
+  <%= f.text_area :message, size: "25x5" %> <br /> <br />
+
+  <%= f.submit 'Create Message', :formtarget => "_blank" do%>
+  <i class='fa fa fa-plus'></i> Create New Window
+    <% end %>
+    
+<% end %>
