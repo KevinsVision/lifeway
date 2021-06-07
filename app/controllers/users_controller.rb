@@ -6,4 +6,8 @@ class UsersController < ApplicationController
     render json: @users.as_json(methods: [:count], :except => [:message, :msg_id, :user_id, :word_count, :id])
   end
 
+  def new
+    @user = User.new
+  end
+
 end
