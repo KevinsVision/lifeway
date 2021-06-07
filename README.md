@@ -18,10 +18,10 @@ This challenge was created using Ruby on Rails REST API - Postgres database.
 2. `\curl -L https://get.rvm.io | bash -s stable`
 
 3. `rvm use ruby --install --default`
-`ruby -v`
+4. `ruby -v`
 
 ### Rails
-4. `gem install rails --no-document`
+1. `gem install rails --no-document`
 
 
 ## Download Postgres if not yet installed
