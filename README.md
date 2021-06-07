@@ -35,3 +35,6 @@ This challenge was created using Ruby on Rails REST API - Postgres database.
 4. Run `rails db:migrate`.
 5. Run `rails s`.
 6. Click the following URL: http://localhost:3000/users/new
+
+## Gif
+![](codeChallengeGIF.gif)
