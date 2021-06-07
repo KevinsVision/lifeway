@@ -15,7 +15,7 @@ class User < ApplicationRecord
     list
   end
 
-  #  ** Below I attempted to total the number of all words **
+  #  ** Below I attempted to total the number of all words as they increment **
   # def total_words
   #   nums = User.all.word_count
 
